@@ -30,3 +30,28 @@ header, main, footer{
     font-size: 72px;
     color: #0D99FF;
 }
+.deals-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.deals-area h3{
+    font-size:  88px;
+    color: #1F3836;
+    margin: 20px 0;
+}
+.deals-area p{
+    font-size:  24px;
+    color: #1F3836;
+    font-weight: 600;
+}
+.deals-area h4{
+    font-size:  44px;    
+    font-weight: 700;
+    margin: 20px 0 40px 0;
+}
+.deals-area img{
+    max-width: 60%;
+    margin: 0 auto 40px
+}
