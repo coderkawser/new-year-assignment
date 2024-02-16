@@ -53,5 +53,32 @@ header, main, footer{
 }
 .deals-area img{
     max-width: 60%;
-    margin: 0 auto 40px
+    margin: 0 auto 60px
+}
+.promotion-area{
+    background-image: url(./assets/images/Vectorrr.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    padding: 67px;
+}
+.promotion-text h3{
+    font-weight: 700;
+    font-size: 88px;
+    margin-bottom: 15px;
+}
+.promotion-area p{
+    line-height: 30px;
+}
+.promotion-text button{
+    margin-top: 15px;
+    border: none;
+    background-color: #0D99FF;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
 }
