@@ -2,13 +2,16 @@
     margin: 0;
     padding: 0;
 }
+
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+
 header, main, footer{
     width: 1320px;
     margin: 0 auto;
 }
+
 .banner{
     background-image: url(./assets/images/Banner\ Image.png);
     background-repeat: no-repeat;
@@ -18,43 +21,52 @@ header, main, footer{
     color: #ffffff;
     text-align: center;
 }
+
 .banner h4{
     padding-top: 250px;
     font-weight: 700;
     font-size: 35px;
     color: #0D99FF;
 }
+
 .banner h2{
     padding-bottom: 250px;
     font-weight: 700;
     font-size: 72px;
     color: #0D99FF;
 }
+
 .deals-area{
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    margin: 150px 0px;
 }
+
 .deals-area h3{
     font-size:  88px;
-    color: #1F3836;
+    color: #0C8EA8;
     margin: 20px 0;
 }
+
 .deals-area p{
     font-size:  24px;
-    color: #1F3836;
+    color: #0C8EA8;
     font-weight: 600;
 }
+
 .deals-area h4{
     font-size:  44px;    
     font-weight: 700;
     margin: 20px 0 40px 0;
 }
+
 .deals-area img{
     max-width: 60%;
     margin: 0 auto 60px
 }
+
 .promotion-area{
     background-image: url(./assets/images/Vectorrr.png);
     background-repeat: no-repeat;
@@ -63,14 +75,17 @@ header, main, footer{
     color: #ffffff;
     padding: 67px;
 }
+
 .promotion-text h3{
     font-weight: 700;
     font-size: 88px;
     margin-bottom: 15px;
 }
+
 .promotion-area p{
     line-height: 30px;
 }
+
 .promotion-text button{
     margin-top: 15px;
     border: none;
@@ -82,29 +97,74 @@ header, main, footer{
     padding: 10px 20px;
     border-radius: 10px;
 }
+
+.coming-soon-area{
+    margin: 200px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.special-color{
+    color: #0C8EA8;
+}
+
+.coming-soon-area p{
+    color: #ABA9AE;
+}
+
+.coming-soon-area h3{
+    font-size: 48px;
+}
+
+.coming-soon-area > img{
+    border: 10px solid #0C8EA8;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.coming-soon-area div > img{
+    width: 60%;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .portfolio{
     margin: 80px 0;
 }
+
 .portfolio-text h4{
     font-size: 24px;
-    color: #1F3836;
+    color: #0C8EA8;
     margin-top: 20px;
 }
+
 .portfolio-text h3{
     font-size: 48px;
     padding: 20px 0;
 }
+
 .portfolio-text p{
-    color: #777777;
+    color: #ABA9AE;
 }
+
 .portfolio-images{
     display: flex;
     margin-left: -10px;
 }
+
 .portfolio-images img{
     margin: 20px;
     margin-right: 0;
     margin-bottom: 0;
+}
+
+.portfolio-images img:hover{
+    opacity: .4;
 }
 
 .subscribe-area{
@@ -114,14 +174,21 @@ header, main, footer{
     border-radius: 10px;
     text-align: center;
 }
+
 .subscribe-area h3{
     font-size: 48px;
     margin: 20px 0;
 }
+
+.subscribe-area p{
+    color: #ABA9AE;
+}
+
 form{
     margin: 15px 0;
     margin-top: 15px;
 }
+
 form input[type=email]{
     width: 400px;
     background-color: #ffffff;
@@ -130,9 +197,10 @@ form input[type=email]{
     padding: 20px;
     outline: none;
 }
+
 form input[type=submit]{
     width: 100px;
-    background-color: #1F3836;
+    background-color: #0C8EA8;
     border-radius: 0 30px 30px 0;
     border: none;
     padding: 20px;
@@ -167,7 +235,11 @@ footer{
 .footer-social-icon{
     display: flex;
     justify-content: center;  
-    margin: 20px 0;  
+    margin: 30px 0;  
+}
+
+.footer-social-icon img{
+    margin: 0 5px;
 }
 
 .footer-bottom{
