@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header, main, footer{
+    width: 1320px;
+    margin: 0 auto;
+}
+.banner{
+    background-image: url(./assets/images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1320px;
+    margin-top: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+.banner h4{
+    padding-top: 250px;
+    font-weight: 700;
+    font-size: 35px;
+    color: #0D99FF;
+}
+.banner h2{
+    padding-bottom: 250px;
+    font-weight: 700;
+    font-size: 72px;
+    color: #0D99FF;
+}
